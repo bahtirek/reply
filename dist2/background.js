@@ -1,4 +1,3 @@
-
 chrome.contextMenus.onClicked.addListener(genericOnClick);
 const appData = {}
 
