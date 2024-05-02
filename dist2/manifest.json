@@ -1,0 +1,20 @@
+{
+  "name": "Reply",
+  "description": "Reply",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["alarms", "storage", "activeTab", "declarativeContent", "scripting", "contextMenus"],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_icon": {
+      "48":  "assets/icon.png",
+      "128":  "assets/icon.png"
+    },
+    "default_popup": "index.html"
+  }
+}
